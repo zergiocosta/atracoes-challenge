@@ -1,0 +1,15 @@
+<figure id="card-{{artist.ID}}" class="card-artist" [ngStyle]="{'background-image': 'url(' + artist.image + ')'}">
+  <img src="../../../assets/img_mask.svg" class="card-artist-img">
+  <figcaption class="card-artist-info">
+    <h2 
+      [innerHTML]="artist.post_title" 
+      class="
+        card-artist-name
+        text-bold
+        text-upper
+        text-big
+        text-white">
+    </h2>
+    <h4 class="card-artist-time text-medium text-orange">{{artist.horario}} <app-tag *ngIf="hasTag" [label]="artist.palco" color="orange"></app-tag></h4>
+  </figcaption>
+</figure>

@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  host: 'https://fvssa.republicainterativa.com.br/wp-json/fv20/v2'
 };
 
 /*

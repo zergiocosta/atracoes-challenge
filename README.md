@@ -1,27 +1,29 @@
-# Atracoes
+# Atracoes Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+This application used to allow users to see every single artist from the FV20 lineup. It also used to allow users to filter these artist by day.
+
+Important parts of it were intentionally deleted. We want you to rewrite the deleted parts so that this applications works again.
+
+## What needs to be done?
+
+You have a few tasks. Although it used to be a working application, important parts and functions of it were partially removed but we kept its type signatures to make it easier for you.
+
+It's a simple application that fetches data from the API and then show it in a grid system with a simple day filter.
+
+## Component styling
+
+The styling for the `card-atracao` component were removed, so that we can test your ability to write it again just from the screenshot bellow.
+Same for the main style. You **must** check the `_variables.scss` file under `assets/sass` to get the project colors and font-sizes.
+
+There's a small detail you must stick to. The fonts used into the project are not shown in the screenshot bellow but you **must** use it. Check the `_fonts.scss` file under `assets/sass` to get more information about it.
+
+Oh! Almost forgot about it: The base HTML sctructure for the grid is empty so you must code it from the ground zero. But don't worry, the HTML markup for the `card-atracao` and `tag` components are working fine but without any styling.
+
+![Base layout](data/screenshot.png)
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+And don't forget to install the dependencies as the very first step!
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+OBS.: As it is done **DO NOT** send a PR. Just zip the project without the dependencies and send it by email.
