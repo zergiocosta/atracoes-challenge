@@ -1,1 +1,29 @@
 @import '../../../assets/sass/variables';
+
+.tag {
+
+  &-orange {
+    color: $purple;
+  }
+
+  &-margin {
+
+    &-left {
+      margin: 0;
+      margin-left: 10px;
+    }
+
+    &-right {
+      margin: 0;
+      margin-right: 10px;
+    }
+
+    &-center {
+      margin: 0 10px;
+    }
+
+    &-none {
+      margin: 0;
+    }
+  }
+}

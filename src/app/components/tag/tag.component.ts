@@ -8,9 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TagComponent implements OnInit {
 
   @Input() label: string
-  @Input() color: string
   @Input() margin: string = 'left'
- 
+
   constructor() { }
 
   ngOnInit() {}
