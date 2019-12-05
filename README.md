@@ -32,7 +32,8 @@ Oh! Almost forgot about it: The base HTML sctructure for the grid is empty so yo
 ## Development server
 
 Run `$ ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-And don't forget to install the dependencies as the very first step!
+
+Oh! And don't forget to install the dependencies as the very first step!
 
 OBS.: As it is done **DO NOT** send a PR. Just zip the project without the dependencies and send it by email.
 
