@@ -46,6 +46,8 @@ Before you go, you'd better read/learn/remember a few subjects about JavaScript 
 - Components
 - Models
 - Services
+- Observables
+  - Subscribe
 
 #### JavaScript
 - Manipulating Arrays and Objects
