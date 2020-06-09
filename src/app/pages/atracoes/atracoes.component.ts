@@ -13,20 +13,20 @@ import { AtracoesService } from '../../services/atracoes.service'
 })
 export class AtracoesComponent implements OnInit {
 
-  protected allArtists: Atracao[]
-  protected activeArtists: Atracao[]
+  private allArtists: Atracao[]
+  private activeArtists: Atracao[]
 
   constructor(
-    protected atracoesService: AtracoesService
+    private atracoesService: AtracoesService
   ) {}
 
-  public ngOnInit(): void {}
+  ngOnInit(): void {}
 
-  public ngAfterViewInit(): void {
+  ngAfterViewInit(): void {
     this.fetchArtists()
   }
 
-  protected fetchArtists(): void {
+  private fetchArtists(): void {
     console.log('it should fetch data from API')
   }
 
