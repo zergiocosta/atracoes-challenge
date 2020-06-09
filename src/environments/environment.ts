@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  host: 'https://fvssa.republicainterativa.com.br/wp-json/fv20/v2'
+  host: 'https://fvssa.com.br/wp-json/fv20/v2'
 };
 
 /*
